@@ -1,5 +1,10 @@
 import { distData } from "./Dist.js";
-import { shops } from "./Shops.js";
+import {
+  shops,
+  DniprovskyShops,
+  KhortytskyiShops,
+  KommunarskyShops,
+} from "./Shops.js";
 // async function getGeoJson() {
 //   try {
 //     let geoJson = await fetch(
@@ -57,8 +62,9 @@ info.onAdd = function (map) {
   return this._div;
 };
 info.update = function (props) {
+  let a;
   const contents = props
-    ? `<b>${props.name}</b><br />${props.averCheck} грн`
+    ? `<b>${props.name}</b>${props.averCheck} грн <br> <p></p>`
     : "Наведіть на район";
   this._div.innerHTML = `<h4>Середній чек</h4>${contents}`;
 };
@@ -173,3 +179,7 @@ shops.forEach((element) => {
   //     .addTo(map)
   //     .openOn(map);
 });
+
+console.log(typeof JSON.parse(JSON.stringify(DniprovskyShops)));
+// console.log(KhortytskyiShops);
+// console.log(KommunarskyShops);

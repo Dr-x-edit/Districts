@@ -1,3 +1,13 @@
+import {
+  DniprovskyShops,
+  KommunarskyShops,
+  KhortytskyiShops,
+  VoznesenivskyiShops,
+  OleksandrivskyiShops,
+  ShevchenkivskyiShops,
+  ZavodskyShops,
+} from "./Shops.js";
+
 export const distData = {
   type: "FeatureCollection",
   features: [
@@ -2045,6 +2055,7 @@ export const distData = {
         copyright: "Map Data © 2024, «Visicom» SC",
         accuracy: 0,
         averCheck: 150,
+        shop_info: DniprovskyShops,
         settlement_url:
           "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json",
       },
@@ -3836,6 +3847,7 @@ export const distData = {
         copyright: "Map Data © 2024, «Visicom» SC",
         accuracy: 0,
         averCheck: 170,
+        shop_info: KhortytskyiShops,
         settlement_url:
           "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json",
       },
@@ -5237,6 +5249,7 @@ export const distData = {
         copyright: "Map Data © 2024, «Visicom» SC",
         accuracy: 0,
         averCheck: 150,
+        shop_info: KommunarskyShops,
         settlement_url:
           "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json",
       },
@@ -5631,6 +5644,7 @@ export const distData = {
         copyright: "Map Data © 2024, «Visicom» SC",
         accuracy: 0,
         averCheck: 220,
+        shop_info: OleksandrivskyiShops,
         settlement_url:
           "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json",
       },
@@ -8282,6 +8296,7 @@ export const distData = {
         copyright: "Map Data © 2024, «Visicom» SC",
         accuracy: 0,
         averCheck: 250,
+        shop_info: ShevchenkivskyiShops,
         settlement_url:
           "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json",
       },
@@ -8854,6 +8869,7 @@ export const distData = {
         copyright: "Map Data © 2024, «Visicom» SC",
         accuracy: 0,
         averCheck: 190,
+        shop_info: VoznesenivskyiShops,
         settlement_url:
           "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json",
       },
@@ -10759,6 +10775,7 @@ export const distData = {
         copyright: "Map Data © 2024, «Visicom» SC",
         accuracy: 0,
         averCheck: 170,
+        shop_info: ZavodskyShops,
         settlement_url:
           "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json",
       },
