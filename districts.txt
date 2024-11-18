@@ -1,0 +1,246 @@
+{
+    "type": "Feature",
+    "id": "DST1T9",
+    "properties": {
+        "name": "Вознесенівський (Орджонікідзевський)",
+        "type": "район",
+        "categories": "adm_district",
+        "country_code": "ua",
+        "country": "Україна",
+        "lang": "uk",
+        "level1": "Запорізька область",
+        "level1_id": "ADMUA9I",
+        "settlement": "Запоріжжя",
+        "settlement_id": "STL1NO9YP",
+        "settlement_type": "місто",
+        "settlement_class": "1st order admin capital",
+        "copyright": "Map Data © 2024, «Visicom» SC",
+        "relevance": 1.0075,
+        "settlement_url": "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json"
+    },
+    "bbox": [
+        35.048803,
+        47.773199,
+        35.163002,
+        47.87988
+    ],
+    "geo_centroid": {
+        "type": "Point",
+        "coordinates": [
+            35.105053,
+            47.827002
+        ]
+    },
+    "url": "https://api.visicom.ua/data-api/5.0/uk/feature/DST1T9.json"
+}
+{
+    "type": "Feature",
+    "id": "DST1R6",
+    "properties": {
+        "name": "Дніпровський (Ленінський)",
+        "type": "район",
+        "categories": "adm_district",
+        "country_code": "ua",
+        "country": "Україна",
+        "lang": "uk",
+        "level1": "Запорізька область",
+        "level1_id": "ADMUA9I",
+        "settlement": "Запоріжжя",
+        "settlement_id": "STL1NO9YP",
+        "settlement_type": "місто",
+        "settlement_class": "1st order admin capital",
+        "copyright": "Map Data © 2024, «Visicom» SC",
+        "relevance": 1.0075,
+        "settlement_url": "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json"
+    },
+    "bbox": [
+        34.980629,
+        47.833867,
+        35.120987,
+        47.951237
+    ],
+    "geo_centroid": {
+        "type": "Point",
+        "coordinates": [
+            35.085569,
+            47.892502
+        ]
+    },
+    "url": "https://api.visicom.ua/data-api/5.0/uk/feature/DST1R6.json"
+}
+{
+    "type": "Feature",
+    "id": "DST1TF",
+    "properties": {
+        "name": "Заводський",
+        "type": "район",
+        "categories": "adm_district",
+        "country_code": "ua",
+        "country": "Україна",
+        "lang": "uk",
+        "level1": "Запорізька область",
+        "level1_id": "ADMUA9I",
+        "settlement": "Запоріжжя",
+        "settlement_id": "STL1NO9YP",
+        "settlement_type": "місто",
+        "settlement_class": "1st order admin capital",
+        "copyright": "Map Data © 2024, «Visicom» SC",
+        "relevance": 1.0333333333333334,
+        "settlement_url": "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json"
+    },
+    "bbox": [
+        35.111187,
+        47.847226,
+        35.270378,
+        47.95418
+    ],
+    "geo_centroid": {
+        "type": "Point",
+        "coordinates": [
+            35.151636,
+            47.9007
+        ]
+    },
+    "url": "https://api.visicom.ua/data-api/5.0/uk/feature/DST1TF.json"
+}
+{
+    "type": "Feature",
+    "id": "DST1RP",
+    "properties": {
+        "name": "Комунарський",
+        "type": "район",
+        "categories": "adm_district",
+        "country_code": "ua",
+        "country": "Україна",
+        "lang": "uk",
+        "level1": "Запорізька область",
+        "level1_id": "ADMUA9I",
+        "settlement": "Запоріжжя",
+        "settlement_id": "STL1NO9YP",
+        "settlement_type": "місто",
+        "settlement_class": "1st order admin capital",
+        "copyright": "Map Data © 2024, «Visicom» SC",
+        "relevance": 1.0333333333333334,
+        "settlement_url": "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json"
+    },
+    "bbox": [
+        35.14819,
+        47.751155,
+        35.289248,
+        47.813821
+    ],
+    "geo_centroid": {
+        "type": "Point",
+        "coordinates": [
+            35.223763,
+            47.782512
+        ]
+    },
+    "url": "https://api.visicom.ua/data-api/5.0/uk/feature/DST1RP.json"
+}
+{
+    "type": "Feature",
+    "id": "DST1S8",
+    "properties": {
+        "name": "Олександрівський (Жовтневий)",
+        "type": "район",
+        "categories": "adm_district",
+        "country_code": "ua",
+        "country": "Україна",
+        "lang": "uk",
+        "level1": "Запорізька область",
+        "level1_id": "ADMUA9I",
+        "settlement": "Запоріжжя",
+        "settlement_id": "STL1NO9YP",
+        "settlement_type": "місто",
+        "settlement_class": "1st order admin capital",
+        "copyright": "Map Data © 2024, «Visicom» SC",
+        "relevance": 1.0075,
+        "settlement_url": "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json"
+    },
+    "bbox": [
+        35.141104,
+        47.802306,
+        35.194342,
+        47.847226
+    ],
+    "geo_centroid": {
+        "type": "Point",
+        "coordinates": [
+            35.164776,
+            47.824726
+        ]
+    },
+    "url": "https://api.visicom.ua/data-api/5.0/uk/feature/DST1S8.json"
+}
+{
+    "type": "Feature",
+    "id": "DST1RL",
+    "properties": {
+        "name": "Хортицький",
+        "type": "район",
+        "categories": "adm_district",
+        "country_code": "ua",
+        "country": "Україна",
+        "lang": "uk",
+        "level1": "Запорізька область",
+        "level1_id": "ADMUA9I",
+        "settlement": "Запоріжжя",
+        "settlement_id": "STL1NO9YP",
+        "settlement_type": "місто",
+        "settlement_class": "1st order admin capital",
+        "copyright": "Map Data © 2024, «Visicom» SC",
+        "relevance": 1.0333333333333334,
+        "settlement_url": "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json"
+    },
+    "bbox": [
+        34.994241,
+        47.771336,
+        35.149693,
+        47.845481
+    ],
+    "geo_centroid": {
+        "type": "Point",
+        "coordinates": [
+            35.046141,
+            47.808399
+        ]
+    },
+    "url": "https://api.visicom.ua/data-api/5.0/uk/feature/DST1RL.json"
+}
+{
+    "type": "Feature",
+    "id": "DST1SQ",
+    "properties": {
+        "name": "Шевченківський",
+        "type": "район",
+        "categories": "adm_district",
+        "country_code": "ua",
+        "country": "Україна",
+        "lang": "uk",
+        "level1": "Запорізька область",
+        "level1_id": "ADMUA9I",
+        "settlement": "Запоріжжя",
+        "settlement_id": "STL1NO9YP",
+        "settlement_type": "місто",
+        "settlement_class": "1st order admin capital",
+        "copyright": "Map Data © 2024, «Visicom» SC",
+        "relevance": 1.0333333333333334,
+        "settlement_url": "https://api.visicom.ua/data-api/5.0/uk/feature/STL1NO9YP.json"
+    },
+    "bbox": [
+        35.161554,
+        47.79705,
+        35.368902,
+        47.889277
+    ],
+    "geo_centroid": {
+        "type": "Point",
+        "coordinates": [
+            35.257605,
+            47.842904
+        ]
+    },
+    "url": "https://api.visicom.ua/data-api/5.0/uk/feature/DST1SQ.json"
+}
+
