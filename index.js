@@ -62,11 +62,20 @@ info.onAdd = function (map) {
   return this._div;
 };
 info.update = function (props) {
-  let a;
   const contents = props
-    ? `<b>${props.name}</b>${props.averCheck} грн <br> <p></p>`
+    ? `<b>${props.name} - </b>${props.averCheck} грн <br> <hr>`
     : "Наведіть на район";
-  this._div.innerHTML = `<h4>Середній чек</h4>${contents}`;
+  this._div.innerHTML = `<h2>Середній чек</h2> <br> ${contents} `;
+
+  if (props) {
+    props.shop_info.sort((a, b) => b.avaregeCheck - a.avaregeCheck);
+    props.shop_info.forEach((el) => {
+      this._div.innerHTML += `<p>${el.name} - ${el.avaregeCheck.toFixed(
+        2
+      )} грн</p>`;
+      console.log(el);
+    });
+  } else this._div.innerHTML = `<h4>Середній чек</h4>${contents}`;
 };
 
 info.addTo(map);
@@ -108,7 +117,7 @@ function highlightFeature(e) {
   layer.setStyle({
     weight: 5,
     color: "#666",
-    dashArray: "",
+    dashArray: "effddf",
     fillOpacity: 0.5,
   });
 
@@ -171,7 +180,9 @@ shops.forEach((element) => {
     weight: 2,
     color: "#3388ff",
     pane: "popupPane",
-  }).addTo(map);
+  })
+    .addTo(map)
+    .bindPopup(`${element.name} - ${element.avaregeCheck.toFixed(2)} грн`);
   //   L.popup(element.latlng, {
   //     content: `<p>${element.name}</p>`,
   //     maxWidth: 400,
