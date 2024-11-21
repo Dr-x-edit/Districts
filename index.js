@@ -56,6 +56,12 @@ L.geoJson(distData).addTo(map);
 
 const info = L.control();
 
+const infoSecond = L.control();
+
+const modalEl = `
+
+`;
+
 info.onAdd = function (map) {
   this._div = L.DomUtil.create("div", "info");
   this.update();
@@ -174,6 +180,12 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 
+function openModal(markerData) {
+  document.getElementById("markerInfo").textContent = markerData;
+  const modal = new bootstrap.Modal(document.getElementById("markerModal"));
+  modal.show();
+}
+
 shops.forEach((element) => {
   L.circle(element.latlng, {
     radius: element.avaregeCheck * 2,
@@ -182,7 +194,8 @@ shops.forEach((element) => {
     pane: "popupPane",
   })
     .addTo(map)
-    .bindPopup(`${element.name} - ${element.avaregeCheck.toFixed(2)} грн`);
+    .bindPopup(`${element.name} - ${element.avaregeCheck.toFixed(2)} грн`)
+    .on("click", () => openModal("test"));
   //   L.popup(element.latlng, {
   //     content: `<p>${element.name}</p>`,
   //     maxWidth: 400,
