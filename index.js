@@ -180,8 +180,11 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 
-function openModal(markerData) {
+function openModal(markerData, shopName) {
   document.getElementById("markerInfo").textContent = markerData;
+  document.getElementById(
+    "markerModalLabel"
+  ).textContent = `Детальна інформація по магазину: ${shopName}`;
   const modal = new bootstrap.Modal(document.getElementById("markerModal"));
   modal.show();
 }
@@ -195,7 +198,12 @@ shops.forEach((element) => {
   })
     .addTo(map)
     .bindPopup(`${element.name} - ${element.avaregeCheck.toFixed(2)} грн`)
-    .on("click", () => openModal("test"));
+    .on("click", () =>
+      openModal(
+        `${element.name} - ${element.avaregeCheck.toFixed(2)} грн`,
+        `${element.name}`
+      )
+    );
   //   L.popup(element.latlng, {
   //     content: `<p>${element.name}</p>`,
   //     maxWidth: 400,
